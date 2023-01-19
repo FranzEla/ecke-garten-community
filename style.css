@@ -1,0 +1,394 @@
+/* NAVIGATION BAR */
+
+.main-navigation {
+  /* border: 2px solid rebeccapurple; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 150px;
+  font-size: larger;
+  background-image: url("./images/sunflowers.jpeg");
+}
+
+.navigation-items {
+  list-style-type: none;
+}
+
+.navigation-items li a {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 600;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #f5d7e3;
+}
+
+.navigation-items li a:hover {
+  background-color: #f5d7e3;
+}
+
+.navigation-items li a:active {
+  background-color: #f5d7e3;
+}
+/* ----------------------------------------------------- */
+/* LOGO */
+/*  --------------------------------------------------- */
+
+.main-logo {
+  /* border: 2px dotted red; */
+  font-size: 48px;
+  margin-right: 20px;
+  color: black;
+}
+/* ------------------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------------------- */
+
+.main-header {
+  /* border: 2px solid red; */
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-image: url("./images/sky-header.jpeg");
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 150px;
+  width: 92%;
+  border-bottom: 1px solid #f5d7e3;
+}
+
+.header-top {
+  padding: 10px 10px 0px 0px;
+}
+
+/* ------------------------------------------------------------------- */
+/* CONTENT */
+/* -------------------------------------------------------------------- */
+
+.main-content {
+  padding: 50px 100px 0 200px;
+  background-color: #cffcff;
+}
+
+/* --------------------------------------------------------------------- */
+/* ABOUT */
+/* ---------------------------------------------------------------------- */
+
+.about-section h1 {
+  /* border: 2px solid #fbbfca; */
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  background-color: #efd3d7;
+  min-width: auto;
+  padding: 10px 0px 10px 10px;
+}
+#about-title {
+  padding-top: 50px;
+}
+.about-section h2 {
+  /* border: 2px solid #fbbfca; */
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 20px;
+  padding: 5px 0px 5px 5px;
+  background-color: #efd3d7;
+  min-width: auto;
+}
+
+.about-section {
+  border: 2px solid #fbbfca;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  line-height: 140%;
+  /* margin: 20px; */
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.about-section p {
+  padding: 20px;
+  margin: 20px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 18px;
+  text-align: center;
+  clear: left;
+}
+.about-section li {
+  list-style-type: circle;
+  padding: 10px;
+}
+.main-content img {
+  height: 150px;
+  max-width: 100%;
+  height: auto;
+  padding: 35px 0px 40px 0px;
+}
+
+.last-p {
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+}
+
+.about-images img {
+  /* border: 2px solid rebeccapurple; */
+  max-width: 15%;
+  float: right;
+  background-color: #cffcff;
+  clear: both;
+  margin-bottom: 10px;
+}
+/* --------------------------------------------------------------- */
+/* MEMBERS */
+/* ---------------------------------------------------------------- */
+
+#member-title {
+  padding-top: 100px;
+}
+.member-section {
+  /* border: 2px solid #45a049; */
+  min-height: 50vh;
+  font-family: "Roboto Slab", serif;
+}
+
+.member-section h2 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 5px 0px 5px 5px;
+  background-color: #efd3d7;
+  width: 100%;
+}
+.member-section p {
+  padding: 20px;
+  margin: auto;
+}
+
+.member-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-buttons a {
+  margin: 80px;
+  padding: 5px;
+  background-color: #fbbfca;
+  border: #45a049;
+  border-radius: 10%;
+  color: #631635;
+  text-decoration: none;
+}
+
+.main-buttons a:hover {
+  background-color: #b996a4;
+  color: #45a049;
+}
+
+/* --------------------------------------------------------------- */
+/* BENEFITS */
+/* ---------------------------------------------------------------- */
+
+#benefits-title h2 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: #efd3d7;
+  padding: 5px 0px 5px 5px;
+}
+#benefits-title {
+  padding-top: 100px;
+}
+.benefits-section {
+  border: 2px solid #fbbfca;
+  min-height: 50vh;
+  font-family: "Roboto Slab", serif;
+}
+.benefits-section p {
+  padding: 20px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* GARDENS */
+/* --------------------------------------------------------------------------- */
+
+#gardens-title {
+  padding-top: 100px;
+}
+.gardens-section h2 {
+  padding: 5px 0px 5px 5px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: #efd3d7;
+}
+.gardens-section {
+  min-height: 90vh;
+  font-family: "Roboto Slab", serif;
+}
+.gardens-section p {
+  padding: 20px;
+}
+.first-card,
+.second-card,
+.third-card,
+.fourth-card {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  width: 20%;
+  border: 2px solid #45a049;
+  padding: 10px;
+  margin: 20px;
+}
+.first-card iframe {
+  width: 100%;
+}
+
+.second-card iframe {
+  width: 100%;
+}
+
+.third-card iframe {
+  width: 100%;
+}
+.fourth-card iframe {
+  width: 100%;
+}
+
+.member-cards {
+  display: flex;
+}
+
+.member-cards p {
+  background-color: #f5d7e3;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------ */
+/* RESOURCES */
+/* ------------------------------------------------------------- */
+
+#resources-title {
+  padding-top: 100px;
+}
+
+.resources-section h2 {
+  padding: 5px 0px 5px 5px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: #efd3d7;
+}
+.video-container {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  padding: 20px;
+  margin: 20px;
+}
+
+.first-video,
+.second-video,
+.third-video,
+.fourth-video {
+  padding: 10px;
+  /* float: inline-end; */
+  margin: auto;
+}
+.resources-section {
+  border: 2px solid #fbbfca;
+}
+
+/* ------------------------------------------------------------ */
+/* CONTACT FORM  */
+/* ------------------------------------------------------------ */
+#contact-title {
+  padding: 50px;
+}
+.contact-section {
+  font-family: "Roboto Slab", serif;
+}
+
+.contact-section form {
+  padding: 20px;
+  margin: auto;
+}
+.contact-items {
+  display: flex;
+}
+#contact-title h2 {
+  margin-top: 50px;
+  padding-top: 5px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-size: 24px;
+}
+.contact-section h2 {
+  background-color: #efd3d7;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* ------------------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------------------ */
+
+.main-footer {
+  padding: 100px 200px 0 200px;
+  background-color: #cffcff;
+}
+.social-icons li {
+  display: inline-block;
+}
+.social-icons li a {
+  color: #45a049;
+}
+.social-icons {
+  text-align: center;
+  font-size: 30px;
+}
+footer .copyright {
+  background-color: #222;
+  color: pink;
+  padding: 10px 0;
+  text-align: center;
+}
